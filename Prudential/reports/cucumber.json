@@ -1,0 +1,260 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "End to End Tests",
+    "line": 1,
+    "id": "end-to-end-tests",
+    "tags": [],
+    "uri": "features\\Weather.feature",
+    "elements": [
+      {
+        "id": "end-to-end-tests;verify-all-the-important-details-are-present-in-the-homepage",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify all the important details are present in the homepage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to OpenWeathermap website",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that all the important links are visible",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Verify the signIn and SignOut options are present",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-tests;verify-the-response-'not-found'-once-the-user-enter-an-invalid-city",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify The response 'Not Found' once the user enter an invalid City",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to OpenWeathermap website",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User enters an invalid city name",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on search button",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the website should suggest that the city is not found",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-tests;verify-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify login with Invalid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to OpenWeathermap website",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2982000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User clicks on SignIn options",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "provide invalid credentials",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User clicks on Submit button",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "proper Alert should be displayed",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-tests;verify-the-weather-details-are-successfully-returned-when-the-user-enters-a-valid-city-name",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Verify the weather details are successfully returned when the user enters a valid city name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to OpenWeathermap website",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "User enters a valid city name \"London\"",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Click on search button",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the website should provide the weather details",
+            "match": {
+              "location": "features\\step_definitions\\Weather.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
