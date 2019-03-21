@@ -1,0 +1,149 @@
+10:48:34.060 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+10:48:34.061 INFO - Launching a standalone Selenium Server
+2019-03-21 10:48:34.087:INFO::main: Logging initialized @612ms
+10:48:34.172 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:48:34.172 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+10:48:34.172 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:48:34.173 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+10:48:34.184 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+2019-03-21 10:48:34.252:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2019-03-21 10:48:34.281:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@c4c815{/,null,AVAILABLE}
+2019-03-21 10:48:34.415:INFO:osjs.ServerConnector:main: Started ServerConnector@4af044{HTTP/1.1}{0.0.0.0:4444}
+2019-03-21 10:48:34.415:INFO:osjs.Server:main: Started @940ms
+10:48:34.415 INFO - Selenium Server is up and running
+10:48:35.328 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+10:48:35.389 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]])
+10:48:35.634 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 38118
+Only local connections are allowed.
+10:48:37.646 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+10:48:45.001 INFO - Detected dialect: OSS
+10:48:45.037 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]]
+10:48:45.093 INFO - Executing: [get: https://openweathermap.org/])
+10:49:24.725 INFO - Done: [get: https://openweathermap.org/]
+10:49:24.792 INFO - Executing: [find element: By.xpath: //a[text()='Weather']])
+10:49:24.845 INFO - Done: [find element: By.xpath: //a[text()='Weather']]
+10:49:24.855 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Weather']]])
+10:49:24.894 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Weather']]]
+10:49:24.909 INFO - Executing: [find element: By.xpath: //a[@href='#']])
+10:49:24.940 INFO - Done: [find element: By.xpath: //a[@href='#']]
+10:49:24.950 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='#']]])
+10:49:24.977 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='#']]]
+10:49:24.988 INFO - Executing: [find element: By.xpath: //a[text()='Guide']])
+10:49:25.022 INFO - Done: [find element: By.xpath: //a[text()='Guide']]
+10:49:25.032 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Guide']]])
+10:49:25.060 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Guide']]]
+10:49:25.074 INFO - Executing: [find element: By.xpath: //a[text()='API']])
+10:49:25.104 INFO - Done: [find element: By.xpath: //a[text()='API']]
+10:49:25.114 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='API']]])
+10:49:25.139 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='API']]]
+10:49:25.153 INFO - Executing: [find element: By.xpath: //a[text()='Price']])
+10:49:25.189 INFO - Done: [find element: By.xpath: //a[text()='Price']]
+10:49:25.199 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Price']]])
+10:49:25.226 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Price']]]
+10:49:25.238 INFO - Executing: [find element: By.xpath: //a[text()='Partners']])
+10:49:25.272 INFO - Done: [find element: By.xpath: //a[text()='Partners']]
+10:49:25.282 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Partners']]])
+10:49:25.309 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Partners']]]
+10:49:25.321 INFO - Executing: [find element: By.xpath: //a[text()='Stations']])
+10:49:25.353 INFO - Done: [find element: By.xpath: //a[text()='Stations']]
+10:49:25.362 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Stations']]])
+10:49:25.389 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Stations']]]
+10:49:25.404 INFO - Executing: [find element: By.xpath: //a[text()='Widgets']])
+10:49:25.435 INFO - Done: [find element: By.xpath: //a[text()='Widgets']]
+10:49:25.444 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Widgets']]])
+10:49:25.474 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[text()='Widgets']]]
+10:49:25.489 INFO - Executing: [find element: By.xpath: //a[@href='https://openweather.co.uk/blog/category/weather']])
+10:49:25.525 INFO - Done: [find element: By.xpath: //a[@href='https://openweather.co.uk/blog/category/weather']]
+10:49:25.534 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='https://openweather.co.uk/blog/category/weather']]])
+10:49:25.561 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='https://openweather.co.uk/blog/category/weather']]]
+10:49:25.575 INFO - Executing: [find element: By.xpath: //span[text()='Support Center']])
+10:49:25.603 INFO - Done: [find element: By.xpath: //span[text()='Support Center']]
+10:49:25.613 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //span[text()='Support Center']]])
+10:49:25.639 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //span[text()='Support Center']]]
+10:49:25.654 INFO - Executing: [find element: By.xpath: //a[@href='//home.openweathermap.org/users/sign_in']])
+10:49:25.681 INFO - Done: [find element: By.xpath: //a[@href='//home.openweathermap.org/users/sign_in']]
+10:49:25.691 INFO - Executing: [is displayed: 10 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='//home.openweathermap.org/users/sign_in']]])
+10:49:25.720 INFO - Done: [is displayed: 10 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='//home.openweathermap.org/users/sign_in']]]
+10:49:25.732 INFO - Executing: [find element: By.xpath: //a[@href='//home.openweathermap.org/users/sign_up']])
+10:49:25.759 INFO - Done: [find element: By.xpath: //a[@href='//home.openweathermap.org/users/sign_up']]
+10:49:25.768 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='//home.openweathermap.org/users/sign_up']]])
+10:49:25.795 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='//home.openweathermap.org/users/sign_up']]]
+10:49:25.811 INFO - Executing: [get: https://openweathermap.org/])
+10:49:27.471 INFO - Done: [get: https://openweathermap.org/]
+10:49:27.493 INFO - Executing: [find element: By.xpath: //input[@placeholder='Your city name']])
+10:49:27.533 INFO - Done: [find element: By.xpath: //input[@placeholder='Your city name']]
+10:49:27.564 INFO - Executing: [click: 12 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Your city name']]])
+10:49:27.972 INFO - Done: [click: 12 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Your city name']]]
+10:49:27.984 INFO - Executing: [find element: By.xpath: //input[@placeholder='Your city name']])
+10:49:28.149 INFO - Done: [find element: By.xpath: //input[@placeholder='Your city name']]
+10:49:28.184 INFO - Executing: [send keys: 12 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Your city name']], [h, e, l, l, o]])
+10:49:28.353 INFO - Done: [send keys: 12 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Your city name']], [h, e, l, l, o]]
+10:49:28.378 INFO - Executing: [find element: By.xpath: (//button[@type='submit'])[last()]])
+10:49:28.427 INFO - Done: [find element: By.xpath: (//button[@type='submit'])[last()]]
+10:49:28.459 INFO - Executing: [click: 13 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: (//button[@type='submit'])[last()]]])
+10:49:34.351 INFO - Done: [click: 13 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: (//button[@type='submit'])[last()]]]
+10:49:34.400 INFO - Executing: [find elements: By.xpath: //div[@role='alert']])
+10:49:34.443 INFO - Done: [find elements: By.xpath: //div[@role='alert']]
+10:49:34.452 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //div[@role='alert']]])
+10:49:34.474 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //div[@role='alert']]]
+10:49:34.487 INFO - Executing: [find element: By.xpath: //div[@role='alert']])
+10:49:34.515 INFO - Done: [find element: By.xpath: //div[@role='alert']]
+10:49:34.525 INFO - Executing: [get text: 14 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //div[@role='alert']]])
+10:49:34.556 INFO - Done: [get text: 14 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //div[@role='alert']]]
+10:49:34.572 INFO - Executing: [get: https://openweathermap.org/])
+10:49:36.636 INFO - Done: [get: https://openweathermap.org/]
+10:49:36.659 INFO - Executing: [find element: By.xpath: //a[@href='//home.openweathermap.org/users/sign_in']])
+10:49:36.683 INFO - Done: [find element: By.xpath: //a[@href='//home.openweathermap.org/users/sign_in']]
+10:49:36.709 INFO - Executing: [click: 15 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='//home.openweathermap.org/users/sign_in']]])
+10:49:46.578 INFO - Done: [click: 15 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[@href='//home.openweathermap.org/users/sign_in']]]
+10:49:46.598 INFO - Executing: [find element: By.xpath:  //input[@placeholder='Enter email']])
+10:49:46.641 INFO - Done: [find element: By.xpath:  //input[@placeholder='Enter email']]
+10:49:46.670 INFO - Executing: [click: 16 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath:  //input[@placeholder='Enter email']]])
+10:49:46.749 INFO - Done: [click: 16 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath:  //input[@placeholder='Enter email']]]
+10:49:46.762 INFO - Executing: [find element: By.xpath:  //input[@placeholder='Enter email']])
+10:49:46.804 INFO - Done: [find element: By.xpath:  //input[@placeholder='Enter email']]
+10:49:46.841 INFO - Executing: [send keys: 16 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath:  //input[@placeholder='Enter email']], [t, e, x, t]])
+10:49:46.939 INFO - Done: [send keys: 16 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath:  //input[@placeholder='Enter email']], [t, e, x, t]]
+10:49:46.951 INFO - Executing: [find element: By.xpath: //input[@placeholder='Password']])
+10:49:46.980 INFO - Done: [find element: By.xpath: //input[@placeholder='Password']]
+10:49:47.004 INFO - Executing: [click: 17 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Password']]])
+10:49:47.077 INFO - Done: [click: 17 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Password']]]
+10:49:47.085 INFO - Executing: [find element: By.xpath: //input[@placeholder='Password']])
+10:49:47.102 INFO - Done: [find element: By.xpath: //input[@placeholder='Password']]
+10:49:47.130 INFO - Executing: [send keys: 17 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Password']], [t, e, x, t]])
+10:49:47.204 INFO - Done: [send keys: 17 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Password']], [t, e, x, t]]
+10:49:47.221 INFO - Executing: [find element: By.xpath: //input[@name='commit']])
+10:49:47.260 INFO - Done: [find element: By.xpath: //input[@name='commit']]
+10:49:47.290 INFO - Executing: [click: 18 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@name='commit']]])
+10:49:47.807 INFO - Done: [click: 18 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@name='commit']]]
+10:49:47.837 INFO - Executing: [find elements: By.xpath: //div[@class='panel-body']])
+10:49:47.896 INFO - Done: [find elements: By.xpath: //div[@class='panel-body']]
+10:49:47.907 INFO - Executing: [is displayed: 19 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //div[@class='panel-body']]])
+10:49:47.934 INFO - Done: [is displayed: 19 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //div[@class='panel-body']]]
+10:49:47.948 INFO - Executing: [find element: By.xpath: //div[@class='panel-body']])
+10:49:47.976 INFO - Done: [find element: By.xpath: //div[@class='panel-body']]
+10:49:47.984 INFO - Executing: [get text: 19 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //div[@class='panel-body']]])
+10:49:48.014 INFO - Done: [get text: 19 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //div[@class='panel-body']]]
+10:49:48.029 INFO - Executing: [get: https://openweathermap.org/])
+10:49:50.197 INFO - Done: [get: https://openweathermap.org/]
+10:49:50.218 INFO - Executing: [find element: By.xpath: //input[@placeholder='Your city name']])
+10:49:50.252 INFO - Done: [find element: By.xpath: //input[@placeholder='Your city name']]
+10:49:50.280 INFO - Executing: [click: 20 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Your city name']]])
+10:49:50.404 INFO - Done: [click: 20 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Your city name']]]
+10:49:50.414 INFO - Executing: [find element: By.xpath: //input[@placeholder='Your city name']])
+10:49:50.436 INFO - Done: [find element: By.xpath: //input[@placeholder='Your city name']]
+10:49:50.467 INFO - Executing: [send keys: 20 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Your city name']], [L, o, n, d, o, n]])
+10:49:50.563 INFO - Done: [send keys: 20 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //input[@placeholder='Your city name']], [L, o, n, d, o, n]]
+10:49:50.586 INFO - Executing: [find element: By.xpath: (//button[@type='submit'])[last()]])
+10:49:50.624 INFO - Done: [find element: By.xpath: (//button[@type='submit'])[last()]]
+10:49:50.654 INFO - Executing: [click: 21 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: (//button[@type='submit'])[last()]]])
+10:49:55.374 INFO - Done: [click: 21 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: (//button[@type='submit'])[last()]]]
+10:49:55.398 INFO - Executing: [find element: By.xpath: //a[contains(text(),'London')]])
+10:49:55.433 INFO - Done: [find element: By.xpath: //a[contains(text(),'London')]]
+10:49:55.441 INFO - Executing: [get text: 22 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[contains(text(),'London')]]])
+10:49:55.470 INFO - Done: [get text: 22 [[ChromeDriver: chrome on XP (444162aec3ade190f0ce46bb72c1f246)] -> xpath: //a[contains(text(),'London')]]]
+10:49:55.491 INFO - Executing: [delete session: e965eb4c-2a27-4245-b743-5a8f480226cf])
+10:49:57.692 INFO - Done: [delete session: e965eb4c-2a27-4245-b743-5a8f480226cf]
